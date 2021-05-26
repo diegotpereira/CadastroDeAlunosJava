@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import br.com.java.menus.InserirAluno;
 import br.com.java.menus.ItemDeMenu;
+import br.com.java.menus.ListarAlunosPorNome;
 import br.com.java.menus.Sair;
 
 public class Principal {
@@ -15,7 +16,7 @@ public class Principal {
 		ItemDeMenu[] principal = new ItemDeMenu[] {
 				
 				new InserirAluno(),
-//				new ListarAlunosPorNome(),
+				new ListarAlunosPorNome(),
 //				new ConsultarAluno(),
 //				new AtualizarAluno(),
 //				new RemoverAluno(),
