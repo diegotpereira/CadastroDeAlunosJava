@@ -2,9 +2,15 @@ package br.com.java;
 
 import java.util.Scanner;
 
+import br.com.java.menus.AtualizarAluno;
+import br.com.java.menus.ConsultarAluno;
 import br.com.java.menus.InserirAluno;
 import br.com.java.menus.ItemDeMenu;
+import br.com.java.menus.ListarAlunosAprovados;
+import br.com.java.menus.ListarAlunosPorMedia;
 import br.com.java.menus.ListarAlunosPorNome;
+import br.com.java.menus.ListarAlunosReprovados;
+import br.com.java.menus.RemoverAluno;
 import br.com.java.menus.Sair;
 
 public class Principal {
@@ -17,12 +23,12 @@ public class Principal {
 				
 				new InserirAluno(),
 				new ListarAlunosPorNome(),
-//				new ConsultarAluno(),
-//				new AtualizarAluno(),
-//				new RemoverAluno(),
-//				new ListarAlunosAprovados(),
-//				new ListarAlunosReprovados(),
-//				new ListarAlunosPorMedia(),
+				new ConsultarAluno(),
+				new AtualizarAluno(),
+				new RemoverAluno(),
+				new ListarAlunosAprovados(),
+				new ListarAlunosReprovados(),
+				new ListarAlunosPorMedia(),
 				new Sair()
 		};
 		
